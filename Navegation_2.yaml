@@ -1,4 +1,4 @@
-# Navegação - Login
+# Navegação - Login Incorreto
 
 appId: br.com.techne.lyceum.unievangelica
 ---
@@ -6,10 +6,11 @@ appId: br.com.techne.lyceum.unievangelica
     clearState: true
 - tapOn:
     id: "username"
-- inputText: "2010018"
+- inputText: "20100188"
 - tapOn: 
     id: "password"
 - inputText: "12112002"
 - back 
 - tapOn: 
     id: "button-login"
+- assertVisible: "Usuário inexistente ou senha inváldia."
