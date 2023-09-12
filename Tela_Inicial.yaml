@@ -1,0 +1,27 @@
+# Navegação - Home 
+appId: br.com.techne.lyceum.unievangelica
+---
+- launchApp:
+    clearState: true
+- tapOn:
+    id: "username"
+- inputText: "2010018"
+- tapOn: 
+    id: "password"
+- inputText: "12112002"
+- back 
+- tapOn: 
+    id: "button-login"
+- tapOn:
+    id: "textoPesquisa"
+- inputText: "CIPEEX"
+- tapOn:
+    id: "data-init"
+- tapOn: "11"
+- tapOn:
+    id: "data-end"
+- tapOn: "14"
+- tapOn: "Filtrar"
+- tapOn: "CIPEEX - V Congresso Internacional de Pesquisa, Ensino e Extensão da UniEVANGÉ\
+    LICA16 a 20 de Ou ..."
+- tapOn: "Clique aqui"

@@ -1,0 +1,63 @@
+# Navegação - Login 
+appId: br.com.techne.lyceum.unievangelica
+---
+- launchApp:
+    clearState: true
+- tapOn:
+    id: "username"
+- inputText: "2010018"
+- tapOn: 
+    id: "password"
+- inputText: "12112002"
+- back 
+- tapOn: 
+    id: "button-login"
+
+# Navegação - Login Incorreto 
+- launchApp:
+    clearState: true
+- tapOn:
+    id: "username"
+- inputText: "20100188"
+- tapOn: 
+    id: "password"
+- inputText: "12112002"
+- back 
+- tapOn: 
+    id: "button-login"
+
+# Navegação - Esqueceu a Senha
+- launchApp:
+    clearState: true
+- tapOn: "Esqueceu a senha?"
+- tapOn:
+    id: "login"
+- inputText: "2010018"
+- tapOn:
+    id: "validarUsuario"
+
+# Navegação - Esqueceu a Senha Incorreto
+- launchApp:
+    clearState: true
+- tapOn: "Esqueceu a senha?"
+- tapOn:
+    id: "login"
+- inputText: "20100188"
+- tapOn:
+    id: "validarUsuario"
+
+# Navegação - Esqueceu a Senha Limpo
+- launchApp:
+    clearState: true
+- tapOn: "Esqueceu a senha?"
+- tapOn:
+    id: "login"
+- tapOn:
+    id: "validarUsuario"
+
+# Navegação - Esqueceu a Senha Cancelar
+- launchApp:
+    clearState: true
+- tapOn: "Esqueceu a senha?"
+- tapOn:
+    id: "voltar"
